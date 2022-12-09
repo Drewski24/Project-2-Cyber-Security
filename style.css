@@ -1,8 +1,29 @@
 * {
     margin: 0;
     padding: 0;
-
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    color: white;
+    background-color: #1d1b1b;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin: 2vh 0;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 5vw;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* Header CSS */
@@ -47,7 +68,7 @@ h1 {
 }
 
 .header__items li:hover {
-    background-color: #1c95f1;
+    /* background-color: #1c95f1; */
 }
 
 .header__items li:hover a {
@@ -97,7 +118,7 @@ h1 {
 
 .text1 {
     width:50%;
-    background-color:#2a9df4;
+    /* background-color: #2a9df4; */
     padding:10px;
     height:auto;
 }
@@ -106,7 +127,7 @@ h1 {
     width:50%;
     max-width: 50%;
     height: auto;
-    background-color:red;
+    /* background-color:red; */
 }
 
 .content2 {
@@ -120,17 +141,17 @@ h1 {
 .image2 {
     width:50%;
     height: auto;
-    background-color:red;
+    /* background-color:red; */
 }
 
 .text2 {
     width:50%;
-    background-color:#2a9df4;
+    /* background-color:#2a9df4; */
     padding:10px;
     height:auto;
 }
 
 footer {
-    background-color: #2a9df4;
+    /* background-color: #2a9df4; */
     height:10vh;
 }
